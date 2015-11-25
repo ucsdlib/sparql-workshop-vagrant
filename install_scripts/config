@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# Contain Environment variables for installs
+#
+
+HOME_DIR="/home/vagrant"
+
+SHARED_DIR="/vagrant"
+
+DOWNLOAD_DIR="$SHARED_DIR/downloads"
+if [ ! -d $DOWNLOAD_DIR ]; then
+  mkdir $DOWNLOAD_DIR
+fi
+
+JENA_VERSION=3.0.0
+JENA_BASE="$SHARED_DIR/jena"
+if [ ! -d $JENA_BASE ]; then
+  mkdir $JENA_BASE
+fi
+
+
+FUSEKI_VERSION=2.3.0
+FUSEKI_BASE=/etc/fuseki
+FUSEKI_DEPLOY=/var/lib/tomcat7/webapps
