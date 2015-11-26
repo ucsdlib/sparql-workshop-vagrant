@@ -18,7 +18,6 @@ tar -xzvf apache-jena-"$JENA_VERSION"-distribution.tar.gz
 cp -R apache-jena-"$JENA_VERSION"/* $JENA_BASE
 
 if [ -z "$JENAROOT" ]; then
-  echo "Enabling Jena Command Line Tools"
-  echo 'export JENAROOT=$JENA_BASE' >> /home/vagrant/.bashrc
-  echo 'export PATH=$PATH:$JENAROOT/bin' >> /home/vagrant/.bashrc
+  echo "JENAROOT=${JENA_BASE}" >> /home/vagrant/.profile
+  echo "PATH=$PATH:${JENA_BASE}/bin" >> /home/vagrant/.profile
 fi

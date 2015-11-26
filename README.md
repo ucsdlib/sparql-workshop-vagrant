@@ -20,9 +20,9 @@ You can shell into the machine with `vagrant ssh` or `ssh -p 2222 vagrant@localh
   * [Tomcat 7](http://tomcat.apache.org) at [http://localhost:8080](http://localhost:8080)
   * [Fuseki 2.3.0](http://jena.apache.org/documentation/fuseki2/) at [http://localhost:8080/fuseki](http://localhost:8080/fuseki), for querying and updating.
     * Installed in "/etc/fuseki"
-    * Dataset Path name "/test"
-    * Persistent storage "/etc/fuseki/databases/test\_data"
   * [Jena 3.0.0](https://jena.apache.org/documentation/tools/)
+    * Installed in "/vagrant/jena"
+    * Confirm by running `sparql --version`
 
 ###Usage
 
