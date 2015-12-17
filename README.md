@@ -5,6 +5,8 @@ SPARQL Workshop Vagrant Virtual Machine
 
 * [Vagrant](https://www.vagrantup.com/)
 * [VirtualBox](https://www.virtualbox.org/)
+* [Vagrant Triggers Plugin](https://github.com/emyl/vagrant-triggers)
+  * installation: `vagrant plugin install vagrant-triggers`
 
 ## Usage
 
@@ -17,19 +19,11 @@ You can shell into the machine with `vagrant ssh` or `ssh -p 2222 vagrant@localh
 ## Environment
 
 * Ubuntu 14.04 64-bit machine with: 
-  * [Tomcat 7](http://tomcat.apache.org) at [http://localhost:8080](http://localhost:8080)
-  * [Fuseki 2.3.0](http://jena.apache.org/documentation/fuseki2/) at [http://localhost:8080/fuseki](http://localhost:8080/fuseki), for querying and updating.
-    * Installed in "/etc/fuseki"
-  * [Jena 3.0.0](https://jena.apache.org/documentation/tools/)
+  * [Fuseki 1.3.1](http://jena.apache.org/documentation/serving_data/index.html) at [http://localhost:3030](http://localhost:3030), for querying and updating.
+    * Installed in "/usr/share/fuseki"
+  * [Jena 3.0.1](https://jena.apache.org/documentation/tools/)
     * Installed in "/vagrant/jena"
     * Confirm by running `sparql --version`
-
-###Usage
-
-* Install Vagrant and VirtualBox
-* Clone this repository 
-* `cd sparql-workshop-vagrant`
-* `vagrant up`
 
 ## Support
 
