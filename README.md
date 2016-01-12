@@ -1,5 +1,5 @@
 # SPARQL Workshop
-SPARQL Workshop Vagrant Virtual Machine 
+SPARQL Workshop Vagrant Virtual Machine
 
 ## Requirements
 
@@ -7,6 +7,8 @@ SPARQL Workshop Vagrant Virtual Machine
 * [VirtualBox](https://www.virtualbox.org/)
 * [Vagrant Triggers Plugin](https://github.com/emyl/vagrant-triggers)
   * installation: `vagrant plugin install vagrant-triggers`
+* (extra step for Windows users) [Fix line endings in Git](https://help.github.com/articles/dealing-with-line-endings/)
+  * run: `git config --global core.autocrlf false`
 
 ## Usage
 
@@ -18,7 +20,7 @@ You can shell into the machine with `vagrant ssh` or `ssh -p 2222 vagrant@localh
 
 ## Environment
 
-* Ubuntu 14.04 64-bit machine with: 
+* Ubuntu 14.04 64-bit machine with:
   * [Fuseki 1.3.1](http://jena.apache.org/documentation/serving_data/index.html) at [http://localhost:3030](http://localhost:3030), for querying and updating.
     * Installed in "/usr/share/fuseki"
   * [Jena 3.0.1](https://jena.apache.org/documentation/tools/)
@@ -46,13 +48,9 @@ and un-comment the **config.vm.box\_url** line, save the file and retry.
 
 If you receive errors involving `\r` (end of line):
 
-Edit the global `.gitconfig` file, find the line:
+Edit the global `.gitconfig` file by running the command:
 ```
-autocrlf = true
-```
-and change it to
-```
-autocrlf = false
+git config --global core.autocrlf false
 ```
 Remove and clone again. This will prevent windows git clients from automatically replacing unix line endings LF with windows line endings CRLF.
 
