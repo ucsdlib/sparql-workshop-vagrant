@@ -1,0 +1,6 @@
+#filename: query-004.rq
+
+PREFIX 	books: <http://example.org/ns/book#>
+SELECT	?propertyName ?propertyValue
+WHERE 	
+		{ <http://www.worldcat.org/oclc/704257552>	?propertyName  ?propertyValue	 . }

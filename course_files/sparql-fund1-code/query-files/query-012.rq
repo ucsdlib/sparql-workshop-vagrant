@@ -1,0 +1,25 @@
+#filename: query-012.rq
+
+PREFIX books: <http://example.org/ns/book#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX dc: <http://purl.org/dc/terms/> 
+
+SELECT ?oclc ?title ?audience
+WHERE {
+{ ?doi 
+	books:oclcNum ?oclc ;
+	rdfs:label ?title ; 
+	dc:audience "publishing" ;
+	dc:audience ?audience .
+	}
+
+UNION
+
+{ ?doi 
+	books:oclcNum ?oclc ;
+	rdfs:label ?title ; 
+	dc:audience "libraries" ;
+	dc:audience ?audience .
+	}
+}

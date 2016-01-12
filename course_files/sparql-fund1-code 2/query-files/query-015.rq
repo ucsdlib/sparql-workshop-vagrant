@@ -1,0 +1,10 @@
+#filename: query-015.rq
+PREFIX dbpedia-ont: <http://dbpedia.org/ontology/>
+
+SELECT * 
+
+WHERE {
+
+?s dbpedia-ont:meshId ?mesh .
+
+}

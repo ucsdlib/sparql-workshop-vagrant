@@ -1,0 +1,11 @@
+#filename: query-007.rq
+
+PREFIX 	books: <http://example.org/ns/book#>
+PREFIX	schema: <http://schema.org/>
+SELECT	*
+WHERE 	
+		{ 
+			?subject ?predicate ?object .
+			FILTER (regex(?object, "Linked Data","i"))
+			
+			}

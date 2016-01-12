@@ -1,0 +1,14 @@
+#filename: query-011.rq
+
+PREFIX books: <http://example.org/ns/book#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+
+SELECT *
+WHERE {
+{ ?subject rdfs:label ?resourcename . }
+
+UNION
+
+{ ?book schema:description ?description }
+}

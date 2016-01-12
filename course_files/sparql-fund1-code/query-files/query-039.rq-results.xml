@@ -1,0 +1,697 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="p"/>
+    <variable name="o"/>
+  </head>
+  <results>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/BadPerson109831962</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Object100002684</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Person100007846</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Whole100003553</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Wrongdoer109633969</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/YagoLegalActor</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/CausalAgent100007347</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/LivingThing100004258</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Organism100004475</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Pervert110419047</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Reprobate110522324</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Satyr110552980</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/PhysicalEntity100001930</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/YagoLegalActorGeo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/class/yago/Satyrs</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://ja.dbpedia.org/resource/マルシュアース</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://pt.dbpedia.org/resource/Mársias</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://cs.dbpedia.org/resource/Marsyás</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://pl.dbpedia.org/resource/Marsjasz</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://rdf.freebase.com/ns/m.0kkc3</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://de.dbpedia.org/resource/Marsyas</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://el.dbpedia.org/resource/Μαρσύας</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://fr.dbpedia.org/resource/Marsyas</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://es.dbpedia.org/resource/Marsias</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://it.dbpedia.org/resource/Marsia</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://ru.dbpedia.org/resource/Марсий</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://nl.dbpedia.org/resource/Marsyas_(Griekse_mythologie)</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://eu.dbpedia.org/resource/Martsias</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://www.wikidata.org/entity/Q599737</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://yago-knowledge.org/resource/Marsyas</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://ar.dbpedia.org/resource/مارسياس</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://ca.dbpedia.org/resource/Màrsies</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://eo.dbpedia.org/resource/Marsiaso</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://fa.dbpedia.org/resource/مارسواس</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://fi.dbpedia.org/resource/Marsyas</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://hu.dbpedia.org/resource/Marszüasz_(szatír)</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://id.dbpedia.org/resource/Marsias</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://lt.dbpedia.org/resource/Marsijas</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://sv.dbpedia.org/resource/Marsyas</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://tr.dbpedia.org/resource/Marsias</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://uk.dbpedia.org/resource/Марсій</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://purl.org/dc/terms/subject</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/resource/Category:Phrygian_characters_in_Greek_mythology</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://purl.org/dc/terms/subject</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/resource/Category:Satyrs</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://purl.org/dc/terms/subject</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/resource/Category:Music_in_Greek_mythology</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://purl.org/dc/terms/subject</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://dbpedia.org/resource/Category:Greek_mythology</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="fr">Dans la mythologie grecque, Marsyas (en grec ancien Μαρσύας / Marsýas), fils d'Olympos (ou d'Œagre selon certaines versions, qui font d'Olympos un simple disciple) et d'Hyagnis, est un satyre phrygien. Les traditions phrygiennes lui attribuent l'invention de la musique et divers chants religieux en l'honneur de Cybèle.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="de">Marsyas (griech. Μαρσύας Marsýas, lat. u. dtsch. ‚Mársyas‘); ursprünglich Gott des gleichnamigen Flusses, der bei Kelainai entspringt, eine im Altertum blühende Stadt im südlichen Phrygien, an den Quellen des Mäander. In der griechisch-römischen Sage ein Satyr (oder Silen), ein halbgöttliches Wesen, Sohn des Hyagnis, Begleiter der Kybele. Verschiedene antike Autoren variieren die Sage, so etwa Herodot (7.26) oder Ovid (Metamorphosen 6.382-400).</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="it">Marsia è una figura della mitologia greca, figlio di Eagro. Secondo altre versioni sarebbe invece figlio di Olimpo.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="ja">マルシュアース（古典ギリシア語：Μαρσύας、Marsyas）はギリシア神話でアポローンと音楽を競い敗北したサテュロスである。 日本語では長母音を省略してマルシュアスとも呼ぶ。</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="en">In Greek mythology, the satyr Marsyas is a central figure in two stories involving death: in one, he picked up the double flute that had been abandoned by Athena and played it; in the other, he challenged Apollo to a contest of music and lost his hide and life. In Antiquity, literary sources often emphasise the hubris of Marsyas and the justice of his punishment. In one conjunction Rhea/Cybele, and his episodes are situated by the mythographers in Celaenae (or Kelainai) in Phrygia, at the main source of the Meander. When a genealogy was applied to him, Marsyas was the son of Olympus, or of Oeagrus, or of Hyagnis. Olympus was, alternatively, said to be Marsyas' son or pupil.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="ru">Марсий — в древнегреческой мифологии сатир, пастух, наказанный Аполлоном за выигранное состязание. Сын Олимпа (или сын Эагра, или сын Гиагнида). Миф о нем изложил Меланиппид . Афина изобрела флейту, но бросила ее как негодный инструмент. Марсий, однако, подобрал флейту, за что Афина ударила его . Марсий непрестанно упражнялся и довёл игру на ней до такого совершенства, что осмелился вызвать Аполлона на состязание. Судьёй был Мидас, который, будучи близким по духу и вкусам Марсию, вынес приговор в его пользу. По другому рассказу, судили Музы, и Марсий победил, но затем Аполлон стал играть на кифаре и петь, после чего Марсий проиграл состязание. Тогда Аполлон подвесил Марсия на высокой сосне и содрал с него кожу, а Мидаса за его суд наградил ослиными ушами. Содранную кожу показывали в Келенах, она начинала двигаться под фригийские напевы . Тело похоронил Олимп, ученик Марсия . После этого Гермес раскаялся, что изобрел лиру, и разорвал на кифаре струны, на некоторое время отрекся от музыки . Источники рек Марсия и Меандра находились в озере над Келенами, где растет тростник, годный для флейт . Согласно фригийцам, его кровь превратилась в реку, текущую через Келены, либо рекой стали слезы, пролитые нимфами и сатирами по Марсию. Река Марсий унесла флейты в Меандр, они появились в Асопе и, выброшенные на берег у Сикионии, были найдены пастухом и принесены в дар Аполлону. Ненависть Аполлона к флейтистам прекратилась благодаря Сакаду из Аргоса . Марсий изображен в Аиде на картине Полигнота в Дельфах.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="es">Marsias (Μαρσύας), en la mitología griega, era un sátiro que desafió a Apolo en un concurso musical. Se creía que había nacido en Celenas, en la fuente principal del río Meandro. Marsias era un experto tocando el aulós, una especie de flauta doble. Había hallado el instrumento en el suelo, donde lo dejó su inventora Atenea, después de que los demás dioses se burlaran de cómo hinchaba las mejillas al tocarlo.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="pl">Marsjasz – w mitologii greckiej sylen frygijski. Należał do orszaku boga Dionizosa lub bogini Kybele. Pewnego dnia satyr znalazł wyrzucony przez Atenę aulos – rodzaj fujarki (bogini dmuchając w instrument wyglądała niekorzystnie i została skrytykowana przez Herę i Afrodytę). Dźwięki znalezionej piszczałki spodobały mu się do tego stopnia, że wyzwał na pojedynek Apollina grającego na kitarze. Apollo przyjął wyzwanie, stawiając warunek, że zwycięzca będzie mógł obejść się z pokonanym wedle swej woli. Pierwsze starcie zakończyło się remisem. Apollo sprytnie zaproponował zmianę zasad: granie na instrumencie odwróconym do góry nogami. W ten sposób Marsjasz przegrał, został powieszony przez Apollina na sośnie lub platanie, a następnie obdarty ze skóry. Od imienia okrutnie ukaranego Marsjasza swoją nazwę wzięła również rzeka, wypływająca z groty: 20pxTakże Marsjas płynie przez miasto i wpada do Meandru. Szerokość Marsjasa wynosi dwadzieścia pięć stóp. Apollon tam obdarł ze skóry Marsjasa, kiedy go pokonał w sporze o pierwszeństwo w sztuce muzycznej; zawiesił jego skórę w grocie, w której biją źródła. Dlatego rzeka nazywa się Marsjas. Współcześnie do tego mitu nawiązuje między innymi wiersz Apollo i Marsjasz Zbigniewa Herberta.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="pt">Mársias é um personagem da mitologia grega. Encontrou a flauta que Atena tinha inventado e, mais tarde, havia descartado porque ao tocá-la suas bochechas ficavam muito inchadas, sendo caçoada por outras deusas, segundo algumas fontes, Hera e Afrodite. Mársias tornou-se um músico tão perfeito que desafiou Apolo a uma competição, onde o vencedor teria direito de punir o perdedor. Apolo ganhou e teve que escalpelar Mársias. O deus arrependeu-se depois, e quis "homenagear" o seu concorrente fazendo do sangue do sátiro nascer o rio Mársias. A lenda era um conto para convencer as pessoas de que a cultura grega, representada pela lira de Apolo, seria superior que a asiática representada pela flauta de Mársias.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/abstract</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="sv">Marsyas var en frygisk satyr i grekisk mytologi. En dag hittade Marsyas Athenas dubbelflöjt som hon kastat bort därför att hon ansåg att hon såg ful ut när hon använde den och blåste upp kinderna. Marsyas var redan ful och brydde sig inte om hur han såg ut när han spelade flöjt. Han beslutade sig för att utmana Apollon i en tävling om vem som var bäst på att spela flöjt. Vinnaren fick göra som han behagade med förloraren. Apollon vann - enligt vissa versioner lyckades han med den omöjliga uppgiften att spela flöjt upp och ned. Apollon gjorde processen kort med Marsyas, som fräckt nog hade vågat utmana guden. Apollon lät hänga upp satyren i ett pinjeträd som stod vid en flod vid namnet Marsyas, och flådde honom levande. Marsyas är även en dikt av Karl-Gustaf Hildebrand, utgiven i diksamlingen "Nödvärn" 1933.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/wikiPageID</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">78972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/wikiPageRevisionID</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">539753006</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="de">Marsyas</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="en">Marsyas</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="es">Marsias</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="fr">Marsyas</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="it">Marsia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="ja">マルシュアース</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="pl">Marsjasz</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="pt">Mársias</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="ru">Марсий</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="sv">Marsyas</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://xmlns.com/foaf/0.1/depiction</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://upload.wikimedia.org/wikipedia/commons/e/e2/IAM_400T_-_Statue_of_Marsyas.jpg</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="fr">Dans la mythologie grecque, Marsyas (en grec ancien Μαρσύας / Marsýas), fils d'Olympos (ou d'Œagre selon certaines versions, qui font d'Olympos un simple disciple) et d'Hyagnis, est un satyre phrygien. Les traditions phrygiennes lui attribuent l'invention de la musique et divers chants religieux en l'honneur de Cybèle.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="en">In Greek mythology, the satyr Marsyas is a central figure in two stories involving death: in one, he picked up the double flute that had been abandoned by Athena and played it; in the other, he challenged Apollo to a contest of music and lost his hide and life. In Antiquity, literary sources often emphasise the hubris of Marsyas and the justice of his punishment.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="de">Marsyas (griech. Μαρσύας Marsýas, lat. u. dtsch. ‚Mársyas‘); ursprünglich Gott des gleichnamigen Flusses, der bei Kelainai entspringt, eine im Altertum blühende Stadt im südlichen Phrygien, an den Quellen des Mäander. In der griechisch-römischen Sage ein Satyr (oder Silen), ein halbgöttliches Wesen, Sohn des Hyagnis, Begleiter der Kybele. Verschiedene antike Autoren variieren die Sage, so etwa Herodot (7.26) oder Ovid (Metamorphosen 6.382-400).</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="it">Marsia è una figura della mitologia greca, figlio di Eagro. Secondo altre versioni sarebbe invece figlio di Olimpo.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="ja">マルシュアース（古典ギリシア語：Μαρσύας、Marsyas）はギリシア神話でアポローンと音楽を競い敗北したサテュロスである。 日本語では長母音を省略してマルシュアスとも呼ぶ。</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="ru">Марсий — в древнегреческой мифологии сатир, пастух, наказанный Аполлоном за выигранное состязание. Сын Олимпа (или сын Эагра, или сын Гиагнида). Миф о нем изложил Меланиппид . Афина изобрела флейту, но бросила ее как негодный инструмент. Марсий, однако, подобрал флейту, за что Афина ударила его . Марсий непрестанно упражнялся и довёл игру на ней до такого совершенства, что осмелился вызвать Аполлона на состязание.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="es">Marsias (Μαρσύας), en la mitología griega, era un sátiro que desafió a Apolo en un concurso musical. Se creía que había nacido en Celenas, en la fuente principal del río Meandro. Marsias era un experto tocando el aulós, una especie de flauta doble. Había hallado el instrumento en el suelo, donde lo dejó su inventora Atenea, después de que los demás dioses se burlaran de cómo hinchaba las mejillas al tocarlo.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="pl">Marsjasz – w mitologii greckiej sylen frygijski. Należał do orszaku boga Dionizosa lub bogini Kybele. Pewnego dnia satyr znalazł wyrzucony przez Atenę aulos – rodzaj fujarki (bogini dmuchając w instrument wyglądała niekorzystnie i została skrytykowana przez Herę i Afrodytę). Dźwięki znalezionej piszczałki spodobały mu się do tego stopnia, że wyzwał na pojedynek Apollina grającego na kitarze.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="pt">Mársias é um personagem da mitologia grega. Encontrou a flauta que Atena tinha inventado e, mais tarde, havia descartado porque ao tocá-la suas bochechas ficavam muito inchadas, sendo caçoada por outras deusas, segundo algumas fontes, Hera e Afrodite. Mársias tornou-se um músico tão perfeito que desafiou Apolo a uma competição, onde o vencedor teria direito de punir o perdedor. Apolo ganhou e teve que escalpelar Mársias.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+      </binding>
+      <binding name="o">
+        <literal xml:lang="sv">Marsyas var en frygisk satyr i grekisk mytologi. En dag hittade Marsyas Athenas dubbelflöjt som hon kastat bort därför att hon ansåg att hon såg ful ut när hon använde den och blåste upp kinderna. Marsyas var redan ful och brydde sig inte om hur han såg ut när han spelade flöjt. Han beslutade sig för att utmana Apollon i en tävling om vem som var bäst på att spela flöjt. Vinnaren fick göra som han behagade med förloraren.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/thumbnail</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/IAM_400T_-_Statue_of_Marsyas.jpg/200px-IAM_400T_-_Statue_of_Marsyas.jpg</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/wikiPageExternalLink</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://www.ancientlibrary.com/gazetteer/0101.html</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/wikiPageExternalLink</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://www.theoi.com/Georgikos/SatyrosMarsyas.html</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/wikiPageExternalLink</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://www.cngcoins.com/Coin.aspx?CoinID=131421</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/ontology/wikiPageExternalLink</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://warburg.sas.ac.uk/vpc/VPC_search/subcats.php?cat_1=5&amp;cat_2=262</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://xmlns.com/foaf/0.1/isPrimaryTopicOf</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://en.wikipedia.org/wiki/Marsyas</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/ns/prov#wasDerivedFrom</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://en.wikipedia.org/wiki/Marsyas?oldid=539753006</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://dbpedia.org/property/hasPhotoCollection</uri>
+      </binding>
+      <binding name="o">
+        <uri>http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Marsyas</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>

@@ -1,0 +1,11 @@
+#filename: query-005.rq
+
+PREFIX books: <http://example.org/ns/book#>
+PREFIX schema: <http://schema.org/>
+SELECT ?bookDesc
+WHERE 
+{ 
+?bookURI books:oclcNum "704257552" .
+?bookURI schema:description ?bookDesc .
+}
+

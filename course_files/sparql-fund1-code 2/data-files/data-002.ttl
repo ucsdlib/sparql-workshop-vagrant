@@ -1,0 +1,37 @@
+@prefix books: <http://example.org/ns/book#> . 
+@prefix schema: <http://schema.org/> .
+
+<http://www.worldcat.org/oclc/704257552> books:oclcNum "704257552" .
+<http://www.worldcat.org/oclc/704257552> books:isbn "1608454312" .
+<http://www.worldcat.org/oclc/704257552> books:isbn "9781608454310" .
+<http://www.worldcat.org/oclc/704257552> books:doi "10.2200/S00334ED1V01Y201102WBE001" .
+<http://www.worldcat.org/oclc/704257552> schema:name "Linked data evolving the web into a global data space" .
+<http://www.worldcat.org/oclc/704257552> schema:author <http://viaf.org/viaf/171818983> .
+<http://www.worldcat.org/oclc/704257552> schema:datePublished "2011" .
+<http://www.worldcat.org/oclc/704257552> schema:inLanguage "en" .
+<http://www.worldcat.org/oclc/704257552> schema:description "The World Wide Web has enabled the creation of a global information space comprising linked documents. As the Web becomes ever more enmeshed with our daily lives, there is a growing desire for direct access to raw data not currently available on the Web or bound up in hypertext documents. Linked Data provides a publishing paradigm in which not only documents, but also data, can be a first class citizen of the Web, thereby enabling the extension of the Web with a global data space based on open standards - the Web of Data. " .
+
+<http://www.worldcat.org/oclc/761314230> books:oclcNum "761314230" .
+<http://www.worldcat.org/oclc/761314230> books:isbn "9781461417675" .
+<http://www.worldcat.org/oclc/761314230> books:isbn "1461417678" .
+<http://www.worldcat.org/oclc/761314230> schema:name "Linking government data" .
+<http://www.worldcat.org/oclc/761314230> schema:author <http://viaf.org/viaf/266916656> .
+<http://www.worldcat.org/oclc/761314230> schema:datePublished "2011" .
+<http://www.worldcat.org/oclc/761314230> schema:inLanguage "en" .
+<http://www.worldcat.org/oclc/761314230> schema:description "This book provides a practical approach to addressing common information management issues. It gives both the costs and benefits of using linked data techniques with government data and describes how agencies can fulfill their missions with less cost." .
+
+<http://www.worldcat.org/oclc/820484415> books:oclcNum "820484415" .
+<http://www.worldcat.org/oclc/820484415> books:isbn "9780838994290" .
+<http://www.worldcat.org/oclc/820484415> schema:name "Linked data tools connecting on the Web" .
+<http://www.worldcat.org/oclc/820484415> schema:author <http://viaf.org/viaf/195531823> .
+<http://www.worldcat.org/oclc/820484415> schema:datePublished "2012" .
+<http://www.worldcat.org/oclc/820484415> schema:inLanguage "en" .
+<http://www.worldcat.org/oclc/820484415> schema:description "This issue of Libary Technology Reports presents an overview of current developments in Semantic Web technology that provide the foundations for making library data accessible on the Semantic Web. Author Karne Coyle introduces basic Semantic Web concepts and then describes the metadata activites and developer tools that are being used to create Semantic Web applications. She points readers to projects within and beyond the library community that are a source of metadata elements and controlled vocabularies. for software developers, she describes available software tools in the nascent world of linked data the Semantic Web. --Publisher's website." .
+
+<http://www.worldcat.org/oclc/814595776> books:oclcNum "814595776" .
+<http://www.worldcat.org/oclc/814595776> books:isbn "9781608459988" .
+<http://www.worldcat.org/oclc/814595776> schema:name "Publishing and using cultural heritage linked data on the semantic Web" .
+<http://www.worldcat.org/oclc/814595776> schema:Author <http://viaf.org/viaf/275068690> .
+<http://www.worldcat.org/oclc/814595776> schema:datePublished "2012" .
+<http://www.worldcat.org/oclc/814595776> schema:inLanguage "en" .
+<http://www.worldcat.org/oclc/814595776> schema:description "Cultural Heritage (CH) data is syntactically and semantically heterogeneous,multilingual, semantically rich, and highly interlinked. It is produced in a distributed, open fashion by museums, libraries, archives, and media organizations, as well as individual persons. Managing publication of such richness and variety of content on the web, and at the same time supporting distributed, interoperable content creation processes, poses challenges where traditional publication approaches need to be re-thought. Application of the principles and technologies of Linked Data and the Semantic web is a new, promising approach to address these problems. This development is leading to the creation of large national and international CH portals, such as Europeana, to large open data repositories, such as the Linked Open Data Cloud, and massive publications of linked library data in the U.S., Europe, and Asia. Cultural Heritage has become one of the most successful application domains of Linked Data and Semantic web technologies." .

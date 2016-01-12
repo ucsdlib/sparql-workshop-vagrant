@@ -1,0 +1,10 @@
+#filename: query-006.rq
+
+PREFIX books: <http://example.org/ns/book#>
+PREFIX schema: <http://schema.org/>
+SELECT ?propertyName ?propertyValue
+WHERE
+{
+	?bookID schema:datePublished "2011" .
+	?bookID ?propertyName ?propertyValue .
+}
