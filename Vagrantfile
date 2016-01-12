@@ -11,18 +11,26 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Below needed for Vagrant versions < 1.6.x
   # config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
 
-  config.vm.network :forwarded_port, guest: 8080, host: 8080 # Tomcat
+  # config.vm.network :forwarded_port, guest: 8080, host: 8080 # Tomcat
+  config.vm.network :forwarded_port, guest: 3030, host: 3030 # Fuseki
 
   config.vm.provider "virtualbox" do |v|
     v.memory = 2048
+  end
+
+  # using vagrant-triggers plugin, remove downloads and damspas directories on destroy
+  config.trigger.after :destroy do
+    run "rm -rf jena"
+    run "rm -rf downloads"
   end
 
   shared_dir = "/vagrant"
 
   config.vm.provision "shell", path: "./install_scripts/bootstrap.sh", args: shared_dir
   config.vm.provision "shell", path: "./install_scripts/java.sh", args: shared_dir
-  config.vm.provision "shell", path: "./install_scripts/tomcat7.sh", args: shared_dir
+  # config.vm.provision "shell", path: "./install_scripts/tomcat7.sh", args: shared_dir
   config.vm.provision "shell", path: "./install_scripts/jena.sh", args: shared_dir
-  config.vm.provision "shell", path: "./install_scripts/fuseki.sh", args: shared_dir
+  # config.vm.provision "shell", path: "./install_scripts/fuseki.sh", args: shared_dir
+  config.vm.provision "shell", path: "./install_scripts/fuseki-1-3.sh", args: shared_dir
 
 end
