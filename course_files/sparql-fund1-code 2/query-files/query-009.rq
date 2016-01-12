@@ -1,0 +1,5 @@
+# filename: query-009.rq
+
+SELECT ?p
+WHERE
+	{ ?s ?p ?o . }

@@ -1,0 +1,7 @@
+#filename: query-002.rq
+
+PREFIX 	books: <http://example.org/ns/book#>
+SELECT	?ldbookISBN 
+FROM  	<data-001.ttl>
+WHERE 	
+		{ <http://www.worldcat.org/oclc/704257552>	books:isbn 	?ldbookISBN . }

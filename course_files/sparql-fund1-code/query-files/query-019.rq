@@ -1,0 +1,11 @@
+#filename: query-019.rq
+
+SELECT DISTINCT ?subject ?wordnet_type
+WHERE
+	{ 
+          ?subject 
+                dbpedia2:wordnet_type ?wordnet_type ; 
+                rdfs:label ?labelname . 
+         }
+    OFFSET 1000
+	LIMIT 100

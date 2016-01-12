@@ -1,0 +1,12 @@
+#filename: data-001.ttl
+
+@prefix books: <http://example.org/ns/book#> . 
+
+<http://www.worldcat.org/oclc/704257552>	books:oclcNum	"704257552" .
+<http://www.worldcat.org/oclc/704257552>	books:isbn	"1608454312" .
+<http://www.worldcat.org/oclc/704257552>	books:isbn	"9781608454310" .
+#<http://www.worldcat.org/oclc/704257552>	books:doi	"10.2200/S00334ED1V01Y201102WBE001" .
+<http://www.worldcat.org/oclc/820484415>	books:oclcNum	"820484415" .
+<http://www.worldcat.org/oclc/820484415>	books:isbn	"9780838994290" .
+<http://www.worldcat.org/oclc/814595776>	books:oclcNum	"814595776" .
+<http://www.worldcat.org/oclc/814595776>	books:isbn	"9781608459988" .

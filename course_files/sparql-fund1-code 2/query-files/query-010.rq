@@ -1,0 +1,11 @@
+#filename: query-010.rq
+
+PREFIX books: <http://example.org/ns/book#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?resourcename ?subject
+WHERE 
+{ 
+?subject ?predicate ?object .
+?subject rdfs:label ?resourcename .
+}

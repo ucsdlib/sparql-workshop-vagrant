@@ -1,0 +1,6 @@
+#filename: query-035.rq
+
+SELECT ?answer WHERE
+{
+	BIND ((IF (1.5 > 2.5, "1.5 is bigger","2.5 is bigger")) AS ?answer) 
+}

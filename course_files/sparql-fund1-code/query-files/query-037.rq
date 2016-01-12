@@ -1,0 +1,16 @@
+#filename: query-037.rq
+
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?city <http://dbpedia.org/resource/United_States> ?state
+
+WHERE {
+
+	?subject dbpedia-owl:city ?city .
+	?subject dbpedia-owl:country <http://dbpedia.org/resource/United_States> .
+	?city <http://dbpedia.org/ontology/isPartOf> ?state .
+
+	BIND (IF(CONTAINS(str(?state),",_"), "county","state") as ?label)
+	FILTER (?label NOT IN ("county"))
+}
+ORDER BY ?city

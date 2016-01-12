@@ -1,0 +1,8 @@
+#filename: query-024.rq
+PREFIX dbpedia-ont: <http://dbpedia.org/ontology/>
+SELECT COUNT(?s) AS ?count
+
+WHERE {
+	?s dbpedia-ont:abstract ?abstract .
+	FILTER ( langMatches(lang(?abstract),"en" ))
+}

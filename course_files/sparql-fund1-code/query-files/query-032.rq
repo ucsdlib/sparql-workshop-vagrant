@@ -1,0 +1,13 @@
+#filename: query-032.rq
+
+PREFIX books: <http://example.org/ns/book#>
+PREFIX schema: <http://schema.org/>
+PREFIX db: <http://dbpedia.org/resource/>
+
+SELECT ?bookID ?name ?doi
+WHERE 
+{ 
+?bookID 
+schema:name ?name ;
+OPTIONAL { ?bookID books:doi ?doi } .
+}
