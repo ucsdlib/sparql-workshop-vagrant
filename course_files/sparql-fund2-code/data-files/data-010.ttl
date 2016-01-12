@@ -1,0 +1,25 @@
+#data-010.ttl
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://example.org/org/> .
+
+:FoodHubA rdfs:label "Boston Area Farm Cooperative" .
+
+:FoodHubB rdfs:label "Somerville Farmers Market" ;
+                    foaf:member :FoodHubA .
+
+:FoodHubC rdfs:label "Arlington Farmers Market" ;
+                    foaf:member :FoodHubA .
+
+:FoodHubD rdfs:label "Greater Lynn Farmers Market" .
+
+:FoodHubE rdfs:label "Chelsea Farm Coop" ;
+                    foaf:member :FoodHubA ;
+                    foaf:member :FoodHubD .
+
+:FoodHubF rdfs:label "Lynnfield Farm Stand" ;
+                    foaf:member :FoodHubD .
+
+:FoodHubG rdfs:label "Marblehead Farm Coop" ;
+                    foaf:member :FoodHubE .

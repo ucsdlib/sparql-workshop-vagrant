@@ -1,0 +1,57 @@
+#courses.ttl
+
+@prefix c: <http://lja.org/courses/> .
+@prefix d: <http://lja.org/data/> .
+
+# Courses
+c:xml101 d:courseTitle "Introduction to XML" ;
+d:courseInstructor "Crafty Bernardo" ;
+d:courseType "markup" .
+
+c:xquery201 
+d:courseTitle "Introduction to XQuery" ;
+d:courseInstructor "Robert Chavez" ;
+d:courseType "coding" .
+
+c:xslt202
+d:courseTitle "Introduction to XSLT" ;
+d:courseInstructor "Ruby Wax" ;
+d:courseType "coding" .
+
+c:semintro
+d:courseTitle "Introduction to The Semenatic Web" ;
+d:courseInstructor "Robert Chavez" ;
+d:courseType "data" .
+
+c:linkeddata
+d:courseTitle "Ontologies and Linked Data" ;
+d:courseInstructor "Robert Chavez" ;
+d:courseType "data" .
+
+c:rdfa
+d:courseTitle "RDFa1.1 (RDFa and RDFa Lite) and RSS" ;
+d:courseInstructor "Robert Chavez" ;
+d:courseType "data" .
+
+c:sparqlintro
+d:courseTitle "The SPARQL semantic query language and protocol" ;
+d:courseInstructor "Robert Chavez" ;
+d:courseType "coding" .
+
+c:sparqlinter
+d:courseTitle "Writing effective SPARQL queries and building a Linked Data data store" ;
+d:courseInstructor "Robert Chavez" ;
+d:courseType "coding" .
+
+c:jsonld
+d:courseTitle	"JSON-LD: JSON for Linking Data" ;	
+d:courseInstructor	"Robert Chavez" ;
+d:courseType	"coding" .
+
+s:data	
+d:courseType	"semantic-data" ;
+d:courseInstructor	"Robert Chavez" ;
+d:courseTitle	"Semantic Data Series" ;
+d:coursecombo	<http://lja.org/courses/rdfa> ;
+d:coursecombo	<http://lja.org/courses/linkeddata> ;
+d:coursecombo	<http://lja.org/courses/semintro> .

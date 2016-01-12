@@ -1,9 +1,0 @@
-#filename: query-014.rq
-
-SELECT *
-
-WHERE {
-
-:Medical_Subject_Headings ?p ?o .
-
-}

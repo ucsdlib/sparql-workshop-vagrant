@@ -1,0 +1,16 @@
+#query-040.rq
+
+PREFIX c: <http://lja.org/courses/>
+PREFIX s: <http://lja.org/series/>
+PREFIX d: <http://lja.org/data/>
+
+SELECT ?seriesTitle ?seriesSubject ?course ?courseName ?courseInstructor
+WHERE
+{
+?s 	d:seriesTitle ?seriesTitle ;
+	d:seriesSubject ?seriesSubject ;
+	d:item ?course .
+
+?course d:courseTitle ?courseName ;
+		d:courseInstructor ?courseInstructor .
+}

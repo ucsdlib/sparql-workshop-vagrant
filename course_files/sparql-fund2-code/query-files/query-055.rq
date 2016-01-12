@@ -1,0 +1,9 @@
+#query-055.rq
+CONSTRUCT 
+{ ?s ?p ?o  }
+FROM <http://dbpedia.org/resource/Marsyas>
+WHERE
+{ ?s ?p ?o . }
+
+
+

@@ -1,0 +1,29 @@
+#filename: query-047.rq
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX db: <http://wifo5-04.informatik.uni-mannheim.de/gutendata/resource/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dctype: <http://purl.org/dc/dcmitype/>
+PREFIX d2r: <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX map: <file:/C:/apps/gutenberg/gutenberg.n3#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vocab: <http://wifo5-04.informatik.uni-mannheim.de/gutendata/resource/vocab/>
+
+PREFIX gp: <http://wifo5-04.informatik.uni-mannheim.de/gutendata/resource/people/> 
+
+SELECT ?dbpProperty ?dbpValue ?gutenProperty ?gutenValue 
+WHERE
+{
+SERVICE <http://DBpedia.org/sparql> 
+{
+<http://dbpedia.org/resource/Joseph_Hocking> ?dbpProperty ?dbpValue . 
+}
+SERVICE <http://wifo5-04.informatik.uni-mannheim.de/gutendata/sparql> 
+{
+gp:Hocking_Joseph ?gutenProperty ?gutenValue . 
+}
+}

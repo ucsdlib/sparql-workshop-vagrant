@@ -1,0 +1,12 @@
+#query-053.rq
+CONSTRUCT
+{ <http://dbpedia.org/resource/Marsyas> ?p ?o . }
+
+WHERE
+{
+SERVICE <http://DBpedia.org/sparql> 
+{ <http://dbpedia.org/resource/Marsyas> ?p ?o . }
+}
+
+
+

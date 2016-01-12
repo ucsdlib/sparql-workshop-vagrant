@@ -1,0 +1,36 @@
+#data-007.ttl
+
+@prefix c: <http://lja.org/courses/> .
+@prefix s: <http://lja.org/series/> .
+@prefix d: <http://lja.org/data/> .
+
+# Series
+s:series01 
+			d:seriesTitle "XML Markup Languages" ;
+			d:seriesSubject "XML" .
+
+s:series02 
+			d:seriesTitle "XML Programming Languages" ;
+			d:seriesSubject "XQuery, XSLT" .
+
+# Courses
+c:xml101 	d:courseTitle "Introduction to XML" ;
+			d:courseInstructor "Crafty Bernardo" ;
+			d:courseType "markup" .
+
+c:xquery201 
+			d:courseTitle "Introduction to XQuery" ;
+			d:courseInstructor "Robert Chavez" ;
+			d:courseType "coding" .
+
+c:xslt202
+			d:courseTitle "Introduction to XSLT" ;
+			d:courseInstructor "Ruby Wax" ;
+			d:courseType "coding" .
+
+# Distribution
+s:series01 d:item c:xml101 .
+
+s:series02 
+			d:item c:xquery201 ;
+			d:item c:xslt202 .

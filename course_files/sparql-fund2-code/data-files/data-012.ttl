@@ -1,0 +1,11 @@
+#data-012.ttl
+@prefix relation: <http://www.snee.com/ns/relation/> .
+@prefix : <http://www.snee.com/ns/> .
+
+:jane 	relation:hasParent 	:gene .
+:gene 	relation:hasParent 	:pat ;
+      	relation:gender    	:female .
+:joan 	relation:hasParent 	:pat ;
+      	relation:gender    	:female . 
+:pat  	relation:gender    	:male .
+:mike 	relation:hasParent 	:joan .

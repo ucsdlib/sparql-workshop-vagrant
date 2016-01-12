@@ -1,0 +1,16 @@
+#data-008.ttl
+
+@prefix pet: <http://example.org/pet/> . 
+@prefix event: <http://example.org/catshow/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
+@prefix : <http://example.org/person/>
+
+:robert pet:owns pet:rainbow .
+:olivia pet:owns pet:beauty .
+:alberto pet:owns pet:piccola .
+
+pet:rainbow foaf:nick "Rainbow", "Stinky", "Blue Patch" .
+pet:beauty foaf:nick "Beauty", "Black Beauty", "BB";
+                  rdfs:label "Gigantor" .
+pet:piccola foaf:nick "Piccola", "Belle" .

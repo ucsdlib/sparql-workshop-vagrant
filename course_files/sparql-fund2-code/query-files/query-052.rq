@@ -1,0 +1,13 @@
+#query-052.rq
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX dbpedia2: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT
+ {  ?cms ?p ?o }
+WHERE
+{
+	?cms dbpedia2:wikilink <http://dbpedia.org/resource/Drupal> ;
+		 ?p  ?o .
+
+}

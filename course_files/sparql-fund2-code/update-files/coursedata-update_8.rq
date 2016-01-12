@@ -1,0 +1,13 @@
+#coursedata-update_8.rq
+	PREFIX c: <http://lja.org/courses/> 
+	PREFIX d: <http://lja.org/data/> 
+	PREFIX s: <http://lja.org/series/>
+	CONSTRUCT
+		{ ?s d:courseType ?updatedtype }
+	WHERE
+	{ 
+		?s d:courseTitle ?coursetitle .
+		?s d:courseType ?coursetype .
+		BIND ((IF (CONTAINS(?coursetitle,"Link"),"linked-data",?coursetype)) AS ?updatedtype)
+		FILTER (regex(?coursetitle, "Link*","i"))
+	}

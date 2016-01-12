@@ -1,6 +1,0 @@
-#filename: query-003.rq
-
-PREFIX 	books: <http://example.org/ns/book#>
-SELECT	?bookURI
-WHERE 	
-		{ ?bookURI	books:isbn 	"9780838994290" . }

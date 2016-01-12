@@ -1,0 +1,12 @@
+#query-041.rq
+	PREFIX pet: <http://example.org/pet/>
+	PREFIX event: <http://example.org/catshow/>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+	PREFIX : <http://example.org/person/>
+
+	SELECT ?name
+	WHERE
+	{
+		:robert pet:owns/foaf:nick ?name .
+	}

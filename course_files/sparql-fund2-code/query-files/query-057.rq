@@ -1,0 +1,6 @@
+#query-057.rq
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+CONSTRUCT
+{  <http://dbpedia.org/resource/Marsyas> rdf:type "sculpture" }
+WHERE
+{}

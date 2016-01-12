@@ -1,0 +1,88 @@
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#ComplexSubject> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Authority> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#authoritativeLabel> "Brain--Concussion"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#componentList> _:bnode7authoritiessubjectssh85016330 . 
+_:bnode7authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://id.loc.gov/authorities/subjects/sh85016319> . 
+_:bnode7authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bnode013 . 
+<http://id.loc.gov/authorities/subjects/sh85016319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Topic> . 
+<http://id.loc.gov/authorities/subjects/sh85016319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Authority> . 
+<http://id.loc.gov/authorities/subjects/sh85016319> <http://www.loc.gov/mads/rdf/v1#authoritativeLabel> "Brain"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016319> <http://www.w3.org/2000/01/rdf-schema#label> "Brain"@en . 
+_:bnode013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bnode14authoritiessubjectssh85016330 . 
+_:bnode013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> . 
+_:bnode14authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Topic> . 
+_:bnode14authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Authority> . 
+_:bnode14authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#authoritativeLabel> "Concussion"@en . 
+_:bnode14authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#elementList> _:bnode18authoritiessubjectssh85016330 . 
+_:bnode18authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bnode19authoritiessubjectssh85016330 . 
+_:bnode18authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> . 
+_:bnode19authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#TopicElement> . 
+_:bnode19authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#elementValue> "Concussion"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#classification> "RC394.C7" . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#hasBroaderAuthority> <http://id.loc.gov/authorities/subjects/sh85016354> . 
+<http://id.loc.gov/authorities/subjects/sh85016354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#ComplexSubject> . 
+<http://id.loc.gov/authorities/subjects/sh85016354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Authority> . 
+<http://id.loc.gov/authorities/subjects/sh85016354> <http://www.loc.gov/mads/rdf/v1#authoritativeLabel> "Brain--Wounds and injuries"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016354> <http://www.w3.org/2000/01/rdf-schema#label> "Brain--Wounds and injuries"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#isMemberOfMADSCollection> <http://id.loc.gov/authorities/subjects/collection_LCSHAuthorizedHeadings> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#isMemberOfMADSCollection> <http://id.loc.gov/authorities/subjects/collection_LCSH_General> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#isMemberOfMADSCollection> <http://id.loc.gov/authorities/subjects/collection_SubdivideGeographically> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#isMemberOfMADSScheme> <http://id.loc.gov/authorities/subjects> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#hasVariant> _:bnode35authoritiessubjectssh85016330 . 
+_:bnode35authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Topic> . 
+_:bnode35authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Variant> . 
+_:bnode35authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#variantLabel> "Cerebral concussion"@en . 
+_:bnode35authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#elementList> _:bnode40authoritiessubjectssh85016330 . 
+_:bnode40authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bnode41authoritiessubjectssh85016330 . 
+_:bnode40authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> . 
+_:bnode41authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#TopicElement> . 
+_:bnode41authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#elementValue> "Cerebral concussion"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#hasVariant> _:bnode44authoritiessubjectssh85016330 . 
+_:bnode44authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Topic> . 
+_:bnode44authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Variant> . 
+_:bnode44authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#variantLabel> "Concussion of the brain"@en . 
+_:bnode44authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#elementList> _:bnode49authoritiessubjectssh85016330 . 
+_:bnode49authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bnode50authoritiessubjectssh85016330 . 
+_:bnode49authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> . 
+_:bnode50authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#TopicElement> . 
+_:bnode50authoritiessubjectssh85016330 <http://www.loc.gov/mads/rdf/v1#elementValue> "Concussion of the brain"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://id.loc.gov/vocabulary/identifiers/lccn> "sh 85016330" . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2002/07/owl#sameAs> <info:lc/authorities/sh85016330> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2002/07/owl#sameAs> <http://id.loc.gov/authorities/sh85016330#concept> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#adminMetadata> _:bnode57authoritiessubjectssh85016330 . 
+_:bnode57authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/RecordInfo#RecordInfo> . 
+_:bnode57authoritiessubjectssh85016330 <http://id.loc.gov/ontologies/RecordInfo#recordChangeDate> "1986-02-11T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> . 
+_:bnode57authoritiessubjectssh85016330 <http://id.loc.gov/ontologies/RecordInfo#recordStatus> "new"^^<http://www.w3.org/2001/XMLSchema#string> . 
+_:bnode57authoritiessubjectssh85016330 <http://id.loc.gov/ontologies/RecordInfo#recordContentSource> <http://id.loc.gov/vocabulary/organizations/dlc> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.loc.gov/mads/rdf/v1#adminMetadata> _:bnode64authoritiessubjectssh85016330 . 
+_:bnode64authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/RecordInfo#RecordInfo> . 
+_:bnode64authoritiessubjectssh85016330 <http://id.loc.gov/ontologies/RecordInfo#recordChangeDate> "1993-08-05T11:48:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> . 
+_:bnode64authoritiessubjectssh85016330 <http://id.loc.gov/ontologies/RecordInfo#recordStatus> "revised"^^<http://www.w3.org/2001/XMLSchema#string> . 
+_:bnode64authoritiessubjectssh85016330 <http://id.loc.gov/ontologies/RecordInfo#recordContentSource> <http://id.loc.gov/vocabulary/organizations/dlc> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brain--Concussion"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2008/05/skos-xl#altLabel> _:bnode74authoritiessubjectssh85016330 . 
+_:bnode74authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos-xl#Label> . 
+_:bnode74authoritiessubjectssh85016330 <http://www.w3.org/2008/05/skos-xl#literalForm> "Cerebral concussion"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2008/05/skos-xl#altLabel> _:bnode79authoritiessubjectssh85016330 . 
+_:bnode79authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos-xl#Label> . 
+_:bnode79authoritiessubjectssh85016330 <http://www.w3.org/2008/05/skos-xl#literalForm> "Concussion of the brain"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2004/02/skos/core#broader> <http://id.loc.gov/authorities/subjects/sh85016354> . 
+<http://id.loc.gov/authorities/subjects/sh85016354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> . 
+<http://id.loc.gov/authorities/subjects/sh85016354> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brain--Wounds and injuries"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016354> <http://www.w3.org/2000/01/rdf-schema#label> "Brain--Wounds and injuries"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2004/02/skos/core#inScheme> <http://id.loc.gov/authorities/subjects> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2004/02/skos/core#altLabel> "Cerebral concussion"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2004/02/skos/core#altLabel> "Concussion of the brain"@en . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2004/02/skos/core#changeNote> _:bnode96authoritiessubjectssh85016330 . 
+_:bnode96authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/changeset/schema#ChangeSet> . 
+_:bnode96authoritiessubjectssh85016330 <http://purl.org/vocab/changeset/schema#subjectOfChange> <http://id.loc.gov/authorities/subjects/sh85016330> . 
+_:bnode96authoritiessubjectssh85016330 <http://purl.org/vocab/changeset/schema#creatorName> <http://id.loc.gov/vocabulary/organizations/dlc> . 
+_:bnode96authoritiessubjectssh85016330 <http://purl.org/vocab/changeset/schema#createdDate> "1986-02-11T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> . 
+_:bnode96authoritiessubjectssh85016330 <http://purl.org/vocab/changeset/schema#changeReason> "new"^^<http://www.w3.org/2001/XMLSchema#string> . 
+<http://id.loc.gov/authorities/subjects/sh85016330> <http://www.w3.org/2004/02/skos/core#changeNote> _:bnode104authoritiessubjectssh85016330 . 
+_:bnode104authoritiessubjectssh85016330 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/changeset/schema#ChangeSet> . 
+_:bnode104authoritiessubjectssh85016330 <http://purl.org/vocab/changeset/schema#subjectOfChange> <http://id.loc.gov/authorities/subjects/sh85016330> . 
+_:bnode104authoritiessubjectssh85016330 <http://purl.org/vocab/changeset/schema#creatorName> <http://id.loc.gov/vocabulary/organizations/dlc> . 
+_:bnode104authoritiessubjectssh85016330 <http://purl.org/vocab/changeset/schema#createdDate> "1993-08-05T11:48:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> . 
+_:bnode104authoritiessubjectssh85016330 <http://purl.org/vocab/changeset/schema#changeReason> "revised"^^<http://www.w3.org/2001/XMLSchema#string> . 

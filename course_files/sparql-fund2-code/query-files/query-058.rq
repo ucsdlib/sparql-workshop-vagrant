@@ -1,0 +1,10 @@
+#query-058.rq
+PREFIX relation: <http://www.snee.com/ns/relation/>
+PREFIX : <http://www.snee.com/ns/>
+
+CONSTRUCT { ?p relation:hasGrandfather ?g . }
+
+WHERE {?p      relation:hasParent ?parent .
+       ?parent relation:hasParent ?g .
+       ?g      relation:gender    :male .
+}

@@ -1,6 +1,0 @@
-#filename: query-001.rq
-
-PREFIX 	books: <http://example.org/ns/book#>
-SELECT	?ldbookISBN
-WHERE 	
-		{ <http://www.worldcat.org/oclc/704257552>	books:isbn 	?ldbookISBN . }

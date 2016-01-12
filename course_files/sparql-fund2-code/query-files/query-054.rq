@@ -1,0 +1,16 @@
+#query-054.rq
+CONSTRUCT { 
+		<http://collection.britishmuseum.org/id/object/GAA2006> ?bmp ?bmo .  
+		<http://dbpedia.org/resource/Marsyas> ?dbpp ?dbpo .
+}
+WHERE
+{
+SERVICE <http://DBpedia.org/sparql>
+{ <http://dbpedia.org/resource/Marsyas> ?dbpp ?dbpo . }
+
+SERVICE <http://collection.britishmuseum.org/sparql> 
+{ <http://collection.britishmuseum.org/id/object/GAA2006> ?bmp ?bmo . }
+}
+
+
+

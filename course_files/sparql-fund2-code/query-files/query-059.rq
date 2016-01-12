@@ -1,0 +1,13 @@
+#query-059.rq
+PREFIX relation: <http://www.snee.com/ns/relation/> 
+PREFIX : <http://www.snee.com/ns/> 
+
+CONSTRUCT { ?p relation:hasAunt ?aunt . }
+
+WHERE {?p      relation:hasParent ?parent .
+       ?parent relation:hasParent ?g .
+       ?aunt   relation:hasParent ?g ;
+               relation:gender    :female .
+
+FILTER (?parent != ?aunt)  
+}

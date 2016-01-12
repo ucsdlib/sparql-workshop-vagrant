@@ -1,0 +1,9 @@
+#query-042-mod-3.rq
+	PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	PREFIX : <http://example.org/org/>
+
+	SELECT ?s
+	WHERE {
+		?s foaf:member+ :FoodHubA
+	}

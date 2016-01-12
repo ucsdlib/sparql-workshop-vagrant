@@ -1,0 +1,32 @@
+#query-060.rq
+	PREFIX cat: <http://dbpedia.org/resource/Category:>
+	PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	PREFIX owl: <http://www.w3.org/2002/07/owl#>
+	PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+	PREFIX mads: <http://www.loc.gov/mads/rdf/v1#>
+	PREFIX term: <http://example.org/medicalterms/>
+	PREFIX dbprop: <http://dbpedia.org/ontology/>
+	CONSTRUCT 
+	{ 
+		term:concutere rdfs:type "concussion_ontology" .
+		term:concutere owl:sameAs ?s .
+		term:concutere term:variant ?prefLabel .
+		term:concutere term:variant ?variantLabel .
+		term:concutere term:variant ?dblabel .
+		term:concutere term:meshid ?meshid .
+	} 
+	FROM <lcshconcussion.nt>
+	WHERE
+	{
+		?s skos:prefLabel ?prefLabel .
+		?s mads:hasVariant ?variant .
+		?variant mads:variantLabel ?variantLabel .
+	
+		SERVICE <http://DBpedia.org/sparql> 
+		{
+			<http://dbpedia.org/resource/Concussion> dbprop:meshId ?meshid .
+			<http://dbpedia.org/resource/Concussion> rdfs:label ?dblabel . 
+			FILTER ( lang(?dblabel) = "en" )
+		}
+	}

@@ -1,0 +1,12 @@
+#query-050.rq
+	PREFIX prop: <http://dbpedia.org/property/>
+	PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+	ASK WHERE
+	{
+		SERVICE <http://DBpedia.org/sparql>
+		{
+			<http://dbpedia.org/resource/Mount_Vesuvius> prop:elevationM ?vesuv_elevation .
+			<http://dbpedia.org/resource/Mount_Etna> prop:elevationM ?etna_elevation
+			FILTER((datatype(?etna_elevation)) != xsd:integer) .
+		}
+	}

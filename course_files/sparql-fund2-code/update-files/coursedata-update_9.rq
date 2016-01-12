@@ -1,0 +1,16 @@
+#coursedata-update_9.rq
+	PREFIX c: <http://lja.org/courses/> 
+	PREFIX d: <http://lja.org/data/> 
+	PREFIX s: <http://lja.org/series/>
+
+	DELETE
+		{ ?s d:courseType ?coursetype }
+	INSERT
+		{ ?s d:courseType ?updatedtype }
+	WHERE
+		{ 
+			?s d:courseTitle ?coursetitle .
+			?s d:courseType ?coursetype .
+			BIND ((IF (CONTAINS(?coursetitle,"Link"),"linked-data",?coursetype)) AS ?updatedtype)
+			FILTER (regex(?coursetitle, "Link*","i"))
+		}
